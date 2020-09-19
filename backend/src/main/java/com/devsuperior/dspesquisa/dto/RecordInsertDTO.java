@@ -3,7 +3,6 @@ package com.devsuperior.dspesquisa.dto;
 import java.io.Serializable;
 
 public class RecordInsertDTO implements Serializable{ 
-	
 	private static final long serialVersionUID = 1L;
 		
 	private String name;
@@ -31,12 +30,12 @@ public class RecordInsertDTO implements Serializable{
 		this.age = age;
 	}
 
-	public Long getGameID() {
+	public Long getGameId() {
 		return gameId;
 	}
 
-	public void setGameID(Long gameID) {
-		this.gameId = gameID;
+	public void setGamedId(Long gameId) {
+		this.gameId = gameId;
 	}
 	
 }
